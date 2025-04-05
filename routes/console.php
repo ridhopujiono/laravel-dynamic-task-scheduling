@@ -1,4 +1,5 @@
 <?php
+
 use Illuminate\Support\Facades\Schedule;
 use App\Models\Schedule as TaskSchedule;
 use Illuminate\Support\Facades\Log;
@@ -20,6 +21,6 @@ foreach ($taskSchedules as $taskSchedule) {
             $event->{$dayMethod}();
         }
     }
-
+    $event->timezone('Asia/Jakarta');
     $event->name($taskSchedule->name);
 }
