@@ -8,5 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Schedule extends Model
 {
     use HasFactory;
-    public $fillable = ['name', 'frequency', 'params', 'days', 'command'];
+
+    protected $casts = [
+        'days' => 'array',
+    ];
+
+    public $fillable = ['name', 'frequency', 'time', 'days', 'command', 'active'];
 }
