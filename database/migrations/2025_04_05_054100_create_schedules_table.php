@@ -15,9 +15,9 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('command')->nullable();
-            $table->string('frequency');
-            $table->string('params')->nullable();
+            $table->string('frequency')->nullable();
             $table->string('days')->nullable();
+            $table->string('time')->nullable();
             $table->boolean('active')->default(true);
             $table->timestamps();
         });
