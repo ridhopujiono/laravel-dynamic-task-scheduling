@@ -12,7 +12,7 @@ No need to touch code or cron jobs manually — everything is stored in the data
 - 📆 Optionally restrict to specific days (e.g., Mondays & Tuesdays)  
 - ⏰ Set exact execution time (HH:MM format)  
 - 🟢 Toggle tasks active/inactive without deleting  
-- 🧠 Built using Laravel Scheduler + FilamentPHP
+- 🧠 Built using Laravel + FilamentPHP
 
 ---
 
