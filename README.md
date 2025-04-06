@@ -1,4 +1,7 @@
 # ⏱️ Dynamic Task Scheduling with Laravel & Filament
+## 📸 Screenshots
+![image](https://github.com/user-attachments/assets/568167d9-087d-49cf-b605-a3e1d39ff913)
+
 
 This project is a Laravel-based dynamic task scheduler that allows you to manage all your scheduled Artisan commands through a beautiful admin UI using [FilamentPHP](https://filamentphp.com/).  
 No need to touch code or cron jobs manually — everything is stored in the database and loaded dynamically into Laravel's scheduler!
@@ -63,11 +66,6 @@ This project includes a powerful and user-friendly admin interface built using [
 - 🧠 Intelligent form behavior:
   - If `frequency` is selected → `days` is hidden
   - If `days` is selected → `frequency` is hidden
-
-### 📸 Screenshots
-
-![image](https://github.com/user-attachments/assets/19f6da03-cad9-412e-938b-69645d4e1c36)
-
 
 ### 🧩 UI Components Used
 
